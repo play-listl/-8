@@ -9,25 +9,25 @@ document.addEventListener('DOMContentLoaded', function() {
     const instructions = document.getElementById('instructions');
 
     const points = {
-        'Burj Khalifa': [20, 12, 8, 6, 4, 3, 2, 0],
-        'Eiffel Tower': [16, 16, 11, 7, 5, 4, 2, 1],
-        'Big Ben': [12, 12, 14, 9, 7, 5, 3, 2],
-        'Statue of Liberty': [10, 10, 11, 12, 8, 6, 4, 4],
-        'Taj Mahal': [8, 8, 8, 9, 11, 8, 5, 5],
-        'Sydney Opera House': [6, 6, 7, 7, 8, 10, 7, 5],
-        'Colosseum': [5, 5, 5, 6, 7, 9, 9, 7],
-        'Christ the Redeemer': [4, 4, 4, 4, 5, 6, 7, 8]
+        'The Adam Project': [20, 12, 8, 6, 4, 3, 2, 0],
+        'Free Guy': [16, 16, 11, 7, 5, 4, 2, 1],
+        'Deadpool 2': [12, 12, 14, 9, 7, 5, 3, 2],
+        'The Hitmans Bodyguard': [10, 10, 11, 12, 8, 6, 4, 4],
+        'Ted': [8, 8, 8, 9, 11, 8, 5, 5],
+        'Buried': [6, 6, 7, 7, 8, 10, 7, 5],
+        'Harold & Kumar Go to the White Castle': [5, 5, 5, 6, 7, 9, 9, 7],
+        'National Lampoons Van Wilder': [4, 4, 4, 4, 5, 6, 7, 8]
     };
 
     const correctOrder = [
-        { city: 'Burj Khalifa', year: '828 meters' },
-        { city: 'Eiffel Tower', year: '324 meters' },
-        { city: 'Big Ben', year: '96 meters' },
-        { city: 'Statue of Liberty', year: '93 meters' },
-        { city: 'Taj Mahal', year: '73 meters' },
-        { city: 'Sydney Opera House', year: '65 meters' },
-        { city: 'Colosseum', year: '48 meters' },
-        { city: 'Christ the Redeemer', year: '30 meters' }
+        { city: 'The Adam Project', year: '2022' },
+        { city: 'Free Guy', year: '2021' },
+        { city: 'Deadpool 2', year: '2018' },
+        { city: 'The Hitmans Bodyguard', year: '2017' },
+        { city: 'Ted', year: '2012' },
+        { city: 'Buried', year: '2010' },
+        { city: 'Harold & Kumar Go to the White Castle', year: '2004' },
+        { city: 'National Lampoons Van Wilder', year: '2002' }
     ];
 
     let gamesPlayed = 0;
